@@ -7,6 +7,7 @@ chmod +x pythonTutorial.py
 chmod +x whileTest.py
 chmod +x breakpointTest.py
 chmod +x functions.py
+chmod +x module.py
 
 #execute scripts
 python3 hallo\ welt.py
@@ -14,6 +15,7 @@ python3 pythonTutorial.py
 python3 whileTest.py
 python3 breakpointTest.py
 python3 functions.py
+python3 module.py
 
 echo
 echo  -e "\033[0;32;5mfinish with Tutorial\033[0m"

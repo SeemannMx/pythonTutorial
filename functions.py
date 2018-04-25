@@ -3,6 +3,10 @@ print("")
 print("define functions in python")
 print("--------------------------")
 # function / def is skipped until function call
+def some_function_with_String(stringX):
+    # function will be called from other python application
+    print(stringX, "from functions")
+
 def some_function():
     for i in range(0,20):
         print("define a function")
@@ -32,4 +36,6 @@ def fib(n):
 
 some_var = fib(10)
 print("Fibonacci: ", some_var)
+
+
 
