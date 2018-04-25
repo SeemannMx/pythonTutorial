@@ -31,4 +31,5 @@ def fib(n):
     return result
 
 some_var = fib(10)
-print(some_var)
+print("Fibonacci: ", some_var)
+
