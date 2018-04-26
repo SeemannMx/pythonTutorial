@@ -10,6 +10,7 @@ chmod +x functions.py
 chmod +x module.py
 chmod +x main_test.py
 chmod +x write.py
+chmod +x globalVariable.py
 
 #execute scripts
 python3 hallo\ welt.py
@@ -20,6 +21,7 @@ python3 functions.py
 python3 module.py
 python3 main_test.py
 python3 write.py
+python3 globalVariable.py
 
 echo
 echo  -e "\033[0;32;5mfinish with Tutorial\033[0m"
