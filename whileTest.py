@@ -53,5 +53,6 @@ for j in range(len(fruits)):
 
 print("")
     
-    
+def functionToTest():
+    print("function from whileTest")
     
