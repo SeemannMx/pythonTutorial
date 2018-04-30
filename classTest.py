@@ -10,7 +10,7 @@ class TestClass:
     # constructor with default value
     def __init__(self, x="constructor variable"):
         self.something = x
-        print("Iam the constructor to TestClass\n ", self.something)
+        print("Iam the constructor to TestClass\n", self.something)
     
     # defined function always with self access variables with self keyword
     def functionInClass(self, otherNumber):
