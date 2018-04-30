@@ -17,10 +17,14 @@ class Lebewesen:
     def lebe(self):
         self.augen = 4
 
-
-
+# extra Klassen für Mehrfachvererbung
+class Haustier(Lebewesen):
+    ohren = 2
+class Tier:
+    hatZaehne = 1
+    
 # Hund ist ein Lebewesen
-class Hund(Lebewesen):
+class Hund(Haustier, Tier):
     print("erzeuge eine Hund Klasse")
     beine = 4
     name ="some name"
@@ -30,6 +34,7 @@ class Hund(Lebewesen):
         self.beine = 3
 
 
+# Main to start python 
 if __name__ == "__main__":
     
     # erzeuge einen Hund names rocky
@@ -43,5 +48,14 @@ if __name__ == "__main__":
     print("Name: ",rocky.name, " | Augenanzahl: ", rocky.augen , " | Beine: ", rocky.beine )
 
     print("")
+    
+    print("Haustrier")
+    print("---------")
+    print("Name:  ", rocky.name)
+    print("Augen: ", rocky.augen)
+    print("Ohren: ", rocky.ohren)
+    print("Beine: ", rocky.beine)
+    print("Zähne: ", rocky.hatZaehne)
+    
 
 
